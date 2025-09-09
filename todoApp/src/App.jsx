@@ -20,6 +20,12 @@ function App() {
     ));
   }
 
+  const handleEdit = (id, newTitle) => {
+    setTodos(todos.map(todo => 
+      todo.id === id ? {...todo, title: newTitle} : todo
+    ));
+  }
+
   console.log(todos);
   
   return (
@@ -28,7 +34,8 @@ function App() {
       <TodoList 
       todos={todos}
       handleDelete={handleDelete}
-      handleCompleted={handleCompleted} />
+      handleCompleted={handleCompleted}
+      handleEdit={handleEdit} />
     </>
   )
 }
