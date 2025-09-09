@@ -1,0 +1,66 @@
+/* Box-sizing: tüm elemanlar için padding ve border’ı width’e dahil et */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+.title{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin:-20px;
+    margin-bottom: 20px;
+    border-radius: inherit;
+    background-color: #4CAF50;
+    color: #f9f9f9;
+}
+.currency-container{
+    max-width: 400px;
+    width: 100%;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+.select-groups {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+/* flex içindeki tüm select’lere eşit alan ver */
+.select-groups select {
+    flex: 1;
+    min-width: 0;           /* taşmayı önlemek için */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.amount-input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.convert-button{
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.convert-button:hover{
+    background-color: #45a049;
+}
+
+.result-display {
+    color: #45a049;
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
