@@ -1,12 +1,40 @@
-# React + Vite
+# Currency Converter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A lightweight React application built with Vite. Convert between currencies using the freecurrencyapi.com API.
 
-Currently, two official plugins are available:
+## HTTP Requests with Axios
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Axios is a promise-based HTTP client for the browser and Node.js. It offers a simple API for sending asynchronous requests to REST endpoints, handling responses, and performing CRUD operations. With built-in support for interceptors, automatic JSON transformations, and comprehensive error handling, Axios streamlines data fetching and state management in React applications.
 
-## Expanding the ESLint configuration
+## Features
+- React + Vite setup with Fast Refresh  
+- Live currency conversion  
+- API key management via `.env`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Prerequisites
+- Node.js v14 or higher
+- npm or yarn
+
+## Installation
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/hayro45/EnesBayramReact.git
+   cd EnesBayramReact/dovizKuru
+   ```
+2. Install dependencies  
+   ```bash
+   npm install
+   ```
+3. Create a `.env` file in the project root:  
+   ```env
+   VITE_API_KEY=your_api_key_here
+   ```
+
+## Running the App
+```bash
+npm run dev
+```
+Open http://localhost:3000 in your browser.
+
+## License
+MIT
