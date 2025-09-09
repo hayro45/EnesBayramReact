@@ -1,5 +1,5 @@
 # Currency Converter
-
+<img width="2560" height="1248" alt="Image" src="https://github.com/user-attachments/assets/f8a7edfa-4293-4924-8bec-3ad7960e223d" />
 A lightweight React application built with Vite. Convert between currencies using the freecurrencyapi.com API.
 
 ## HTTP Requests with Axios
