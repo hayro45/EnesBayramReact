@@ -14,12 +14,21 @@ function App() {
     setTodos(todos.filter(todo => todo.id !== id));
   }
 
+  const handleCompleted = (id) => {
+    setTodos(todos.map(todo => 
+      todo.id === id ? {...todo, isCompleted: !todo.isCompleted} : todo
+    ));
+  }
+
   console.log(todos);
   
   return (
     <>
       <TodoCreate onAddTodo={handleAddTodo} />
-      <TodoList todos={todos} handleDelete={handleDelete} />
+      <TodoList 
+      todos={todos}
+      handleDelete={handleDelete}
+      handleCompleted={handleCompleted} />
     </>
   )
 }

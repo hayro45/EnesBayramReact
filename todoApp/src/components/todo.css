@@ -20,14 +20,24 @@
 }
 
 .todo-list-container {
+  display: flex;
+  flex-direction: row;
   margin: 20px auto;
-  max-width: 400px;
+  max-width: 600px;
   border: 1px solid #ccc;
   padding: 10px;
   border-radius: 5px;
-  display: flex;
-  flex-direction: row;
   gap: 10px;
   justify-content: space-between;
   align-items: center;
+}
+
+.todo-checkbox{
+  cursor: pointer;
+  min-width: 20px;
+  min-height: 20px;
+  accent-color: #4CAF50;
+  margin-right: 10px; 
+  
+
 }
