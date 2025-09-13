@@ -32,8 +32,8 @@ function TodoList({ todos, handleDelete, handleCompleted, handleEdit }) {
     return (
         <>
         {todos && todos.length > 0 ? todos.map(todo => (
-            
-            <div className='todo-list-container' key={todo.id}>
+
+            <div className='todo-list-container' style={todo.isCompleted ? { opacity: 0.5, border: '1px solid #4CAF50' } : {}} key={todo.id}>
                 <input 
                     className='todo-checkbox'
                     type="checkbox" 
