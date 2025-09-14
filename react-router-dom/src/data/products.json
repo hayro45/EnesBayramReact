@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "Product A",
+    "price": 100,
+    "description": "Description of Product A",
+    "category": "electronics"
+  },
+  {
+    "id": 2,
+    "name": "Product B",
+    "price": 200,
+    "description": "Description of Product B",
+    "category": "electronics"
+  },
+  {
+    "id": 3,
+    "name": "Product C",
+    "price": 300,
+    "description": "Description of Product C",
+    "category": "furniture"
+  },
+  {
+    "id": 4,
+    "name": "Product D",
+    "price": 400,
+    "description": "Description of Product D",
+    "category": "furniture"
+  },
+  {
+    "id": 5,
+    "name": "Product E",
+    "price": 500,
+    "description": "Description of Product E",
+    "category": "clothing"
+  },
+  {
+    "id": 6,
+    "name": "Product F",
+    "price": 600,
+    "description": "Description of Product F",
+    "category": "clothing"
+  },
+  {
+    "id": 7,
+    "name": "Product G",
+    "price": 700,
+    "description": "Description of Product G",
+    "category": "toys"
+  },
+  {
+    "id": 8,
+    "name": "Product H",
+    "price": 800,
+    "description": "Description of Product H",
+    "category": "toys"
+  },
+  {
+    "id": 9,
+    "name": "Product I",
+    "price": 900,
+    "description": "Description of Product I",
+    "category": "books"
+  },
+  {
+    "id": 10,
+    "name": "Product J",
+    "price": 1000,
+    "description": "Description of Product J",
+    "category": "books"
+  },
+  {
+    "id": 11,
+    "name": "Product K",
+    "price": 1100,
+    "description": "Description of Product K",
+    "category": "books"
+  },
+  {
+    "id": 12,
+    "name": "Product L",
+    "price": 1200,
+    "description": "Description of Product L",
+    "category": "books"
+  }
+]
