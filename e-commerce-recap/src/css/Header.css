@@ -1,0 +1,35 @@
+.logo {
+    height: 60px;
+    width: auto;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+}
+
+.logo-text {
+    font-size: 28px;
+    font-weight: bold;
+    
+    margin-left: 15px;
+}
+
+.search-input {
+    border: none;
+    border-bottom: 2px solid #333;
+    padding: 4px 8px;
+    outline: none;
+}
+
+.icon {
+    font-size: 24px;
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+.icon:hover {
+    color: #007BFF;
+}
