@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #121212;
+    color: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    padding: 20px;
+}
+/* RegisterForm container'ını ortalamak için */
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+}
+form {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+    
+    margin: auto; /* formu yatay olarak ortalar */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+h1 {
+    color: #f9f9f9;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #f9f9f9; 
+}
+
+input[type="number"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.error{
+    color: #870404;
+    font-size: 14px;
+    margin-top: -8px;
+    margin-bottom: 8px;
+    align-self: flex-start;
+    text-align: left;
+    width: 100%;
+    padding: 5px 10px;
+    background-color: #f9d6d5;
+    border-radius: 5px;
+    border: 1px solid #870404;
+    box-sizing: border-box;
+    
+}

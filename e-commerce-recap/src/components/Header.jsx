@@ -3,6 +3,7 @@ import '../css/Header.css'
 import { FaCartShopping } from "react-icons/fa6";
 import { FaMoon } from "react-icons/fa";
 import { CiLight } from "react-icons/ci";
+import { Badge } from '@mui/material';
 
 function Header() {
 
@@ -40,7 +41,10 @@ function Header() {
       <div className='flex-row'>
         <input type='text' placeholder='Aramaya başlayın...' name='search' className='search-input' />
         <div>
-            <FaCartShopping className='icon'/>
+            <Badge badgeContent={4} color="error">
+              <FaCartShopping className='icon'/>
+            </Badge>
+            
             {theme ? <CiLight onClick={changeTheme} className='icon'/> : <FaMoon onClick={changeTheme} className='icon'/>}
         </div>
       </div>
